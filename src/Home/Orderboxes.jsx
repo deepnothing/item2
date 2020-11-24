@@ -23,7 +23,7 @@ class Orderboxes extends React.Component {
                     <Modal show={this.state.show} onHide={() => { this.handleModal() }}>
                         <Modal.Header closeButton>
 
-                            <Modal.Title>Completed orders</Modal.Title>
+                            <Modal.Title>Completed Orders</Modal.Title>
                         </Modal.Header>
                         <Modal.Body>
                             <div className="modal-body">
@@ -71,7 +71,7 @@ class Orderboxes extends React.Component {
                     <Modal show={this.state.show} onHide={() => { this.handleModal() }}>
                         <Modal.Header closeButton>
 
-                            <Modal.Title>Delivered orders</Modal.Title>
+                            <Modal.Title>Delivered Orders</Modal.Title>
                         </Modal.Header>
                         <Modal.Body>
                             <div className="modal-body">
@@ -139,12 +139,12 @@ class Orderboxes extends React.Component {
                                             </tr>
                                             <tr>
                                                 <th scope="row">000369</th>
-                                                <td>item2</td>
+                                                <td>Passport</td>
                                                 <td>8/15/2020</td>
                                             </tr>
                                             <tr>
                                                 <th scope="row">000370</th>
-                                                <td>item 3</td>
+                                                <td>item 2</td>
                                                 <td>9/4/2020</td>
                                             </tr>
                                         </tbody>
@@ -187,7 +187,7 @@ class Orderboxes extends React.Component {
                                             </tr>
                                             <tr>
                                                 <th scope="row">000369</th>
-                                                <td>item 2</td>
+                                                <td>item2</td>
                                                 <td>8/15/2020</td>
                                             </tr>
                                             <tr>

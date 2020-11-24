@@ -40,23 +40,16 @@ export class UserOptions extends Component {
               fullWidth
             />
             <br />
-            <FormControl>
-              <InputLabel>Item type</InputLabel>
-              <Select onChange={handleChange('fileType')}>
-                <MenuItem value='Personal Identification'>Hardware</MenuItem>
-                <MenuItem value='Legal / Contract'>Software</MenuItem>
-              </Select>
-            </FormControl>
-            <br />
+
+
             <TextField
-              placeholder="Document Type"
-              label="DocType"
-              onChange={handleChange('documentType')}
-              defaultValue={values.documentType}
+              placeholder="item Count"
+              label="item count Count"
+              onChange={handleChange('pageCount')}
+              defaultValue={values.pageCount}
               margin="normal"
               fullWidth
             />
-
             <br />
             <FormControl>
               <InputLabel>Turnaround Time</InputLabel>

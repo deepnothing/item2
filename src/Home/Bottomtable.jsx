@@ -18,7 +18,7 @@ const Bottomtable = () => (
                 <tbody>
                     <tr>
                         <th scope="row">000368</th>
-                        <td>item 1</td>
+                        <td>Item 1</td>
                         <td>Completed</td>
                         <td>Aug. 1, 2020</td>
                     </tr>

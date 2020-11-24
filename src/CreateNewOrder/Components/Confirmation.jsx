@@ -34,15 +34,6 @@ export class Confirmation extends Component {
                             <ListItem>
                                 <ListItemText primary="Project Title" secondary={projectTitle} />
                             </ListItem>
-                            <ListItem>
-                                <ListItemText primary="Document Name" secondary={documentName} />
-                            </ListItem>
-                            <ListItem>
-                                <ListItemText primary="File Type" secondary={fileType} />
-                            </ListItem>
-                            <ListItem>
-                                <ListItemText primary="Document Type" secondary={documentType} />
-                            </ListItem>
 
                             <ListItem>
                                 <ListItemText primary="Service Type" secondary={serviceType} />
