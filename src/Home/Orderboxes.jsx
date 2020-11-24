@@ -166,7 +166,7 @@ class Orderboxes extends React.Component {
                     <Modal show={this.state.show} onHide={() => { this.handleModal() }}>
                         <Modal.Header closeButton>
 
-                            <Modal.Title>Cart</Modal.Title>
+                            <Modal.Title>More info</Modal.Title>
                         </Modal.Header>
                         <Modal.Body>
                             <div className="modal-body">
